@@ -14,7 +14,7 @@ namespace UnitTestHello
             HelloConsole.ClsAdd Ica = new HelloConsole.ClsAdd();
             String firstName = "Vinita";
             String lastName = "Singh";
-            String expected = "Vinita Sing";
+            String expected = "Vinita Singh";
             String actual;
             //Act  
             actual = Ica.AddName(firstName, lastName);
