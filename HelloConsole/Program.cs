@@ -10,9 +10,15 @@ namespace HelloConsole
     {
         static void Main(string[] args)
         {
-            System.Console.WriteLine("Hello Pratap !!");
+            ClsAdd Ica = new ClsAdd();
+            string CName = Ica.AddName("Shiva", "Pratap");
+            System.Console.WriteLine(CName);
+            //System.Console.WriteLine("Hello Pratap !!");
             System.Console.ReadLine();
-            
+             
         }
+
+        
     }
+    
 }
