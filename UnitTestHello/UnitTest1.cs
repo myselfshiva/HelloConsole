@@ -12,9 +12,9 @@ namespace UnitTestHello
         {
             //Arrange  
             HelloConsole.ClsAdd Ica = new HelloConsole.ClsAdd();
-            String firstName = "Narasimha";
-            String lastName = "Reddy";
-            String expected = "Narasimha Reddy";
+            String firstName = "Vinita";
+            String lastName = "Singh";
+            String expected = "Vinita Sing";
             String actual;
             //Act  
             actual = Ica.AddName(firstName, lastName);
